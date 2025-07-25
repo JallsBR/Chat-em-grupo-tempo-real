@@ -1,4 +1,4 @@
-Chat em grupo (realtime)
+# Chat em grupo (realtime)
 
 Exercício prático Pythonando para a criação de um chat em grupo em tempo real utilizando sockets e interface gráfica simples com Tkinter.
 
@@ -27,9 +27,9 @@ git clone https://github.com/JallsBR/Chat-em-grupo-tempo-real.git
 2️⃣ Crie e ative um ambiente virtual (opcional, mas recomendado):
 
 python -m venv venv
-# Windows
+-  Windows
 venv\Scripts\activate
-# Linux/Mac
+-  Linux/Mac
 source venv/bin/activate
 
 3️⃣ Execute o servidor:
@@ -41,10 +41,3 @@ python servidor.py
 python cliente.py
 
 OBS: Você pode abrir múltiplas instâncias do cliente.py para simular vários usuários no chat.
-
-- Estrutura do projeto
-
-📂 chat
- ├── servidor.py    # Código do servidor de chat com gerenciamento de conexões
- ├── cliente.py     # Código do cliente com interface Tkinter
- └── README.md      # Este arquivo
